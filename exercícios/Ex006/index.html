@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="page-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 id="título">Cadastro de DEVs</h1><br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" id="nome" required/>
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" id="sobrenome" required/>
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" id="email" required/>
+            </div>
+            <div class="campo">
+                <label for="telefone"><strong>Telefone:</strong></label>
+                <input type="tel" id="telefone" required/>
+            </div>
+        </fieldset>
+            <div class="campo">
+            <label for="gender"><strong>Gênero:</strong></label>
+            <label>
+                <input type="radio" name="gender" value="Masculino" checked/> Masculino
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Feminino"/> Feminino
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Outro"/> Outro
+            </label>
+            </div>
+            <div class="campo">
+            <label for="navegador"><strong>Escolha seu navegador de preferência:</strong></label>
+            <select id="navegador">
+                <option selected disabled value=""> Selecione</option>
+                <option>Chrome</option>
+                <option>Firefox</option>
+                <option>Internet Explorer</option>
+                <option>Opera</option>
+                <option>Safari</option>
+            </select>
+            </div>
+        <fieldset class="grupo">
+            <div class="check">
+            <label><strong>Selecione as tecnologias que você utiliza:</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="C#"/>
+                <label for="tecnologia1">C#</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="HTML"/> 
+                <label for="tecnologia2">HTML</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="CSS"/> 
+                <label for="tecnologia3">CSS</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="JavaScript"/> 
+                <label for="tecnologia4">JavaScript</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="PHP"/> 
+                <label for="tecnologia5">PHP</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python"/> 
+                <label for="tecnologia6">Python</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java"/> 
+                <label for="tecnologia7">Java</label>
+                <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Ruby"/> 
+                <label for="tecnologia8">Ruby</label>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <br>
+            <label><strong>Comente um pouco sobre a sua experiência:</strong></label>
+            <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
+        </div>
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+</body>
+</html>
