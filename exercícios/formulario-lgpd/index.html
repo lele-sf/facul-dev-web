@@ -4,89 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <link rel="shortcut icon" href="page-icon.ico" type="image/x-icon">
+    <title>Formulário LGPD</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Solicitação de Informações Relacionadas a Dados Pessoais (LGPD)</h1>
+    <section>
+        <article><p>Este formulário tem o intuito de auxiliar você, titular de dados ou responsável/representante legal, possa tirar suas dúvidas e obter mais informações sobre o tratamento de dados pessoais pelo o nosso sistema Videnci.</p>
+        <p>Os dados coletados a partir desta página serão tratados exclusivamente para o atendimento e registro da solicitação do titular, no legítimo interesse das partes.</p>
+        <p>Os dados do atendimento serão de uso restrito pelo encarregado e demais envolvidos diretamente na solicitação, permanecendo armazenados por tempo indeterminado, sem acesso pelos demais usuários do Videnci, salvo na necessidade de consulta para demandas decorrentes do próprio atendimento realizado.<br>
+        As comunicações realizadas entre o titular e o Videnci, através dos meios de contato aqui fornecidos, serão consideradas verdadeiras entre as partes, como legítimos instrumentos válidos para manifestação de suas vontades.</p> 
+        </article>
+    </section>
+    <h2 style="font-size: 15px;"><strong>Preencha os campos abaixo para exercer seu direito, de acordo com a LEI Nº 13.709, DE 14 DE AGOSTO DE 2018, e solicitar mais informações sobre a utilização dos seus dados e exigir providências.</strong></h2>
     <div>
-        <h1 id="título">Cadastro de DEVs</h1><br>
+        <label for="info">Quem está solicitando essas informações?*</label><br>
+            <ul>
+                <input type="checkbox" id="info1" name="info1" value="Títular dos Dados"/>
+                <label for="info1">Títular dos Dados</label><br>
+                <input type="checkbox" id="info2" name="info2" value="Responsável Legal"/>
+                <label for="info2">Responsável Legal</label><br>
+                <input type="checkbox" id="info3" name="info3" value="Representante Legal"/>
+                <label for="info3">Representante Legal</label><br>
+            </ul>
     </div>
-    <form>
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="nome"><strong>Nome:</strong></label>
-                <input type="text" id="nome" required/>
-            </div>
-            <div class="campo">
-                <label for="sobrenome"><strong>Sobrenome:</strong></label>
-                <input type="text" id="sobrenome" required/>
-            </div>
-        </fieldset>
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="email"><strong>E-mail:</strong></label>
-                <input type="email" id="email" required/>
-            </div>
-            <div class="campo">
-                <label for="telefone"><strong>Telefone:</strong></label>
-                <input type="tel" id="telefone" required/>
-            </div>
-        </fieldset>
-            <div class="campo">
-            <label for="gender"><strong>Gênero:</strong></label>
-            <label>
-                <input type="radio" name="gender" value="Masculino" checked/> Masculino
-            </label>
-            <label>
-                <input type="radio" name="gender" value="Feminino"/> Feminino
-            </label>
-            <label>
-                <input type="radio" name="gender" value="Outro"/> Outro
-            </label>
-            </div>
-            <div class="campo">
-            <label for="navegador"><strong>Escolha seu navegador de preferência:</strong></label>
-            <select id="navegador">
-                <option selected disabled value=""> Selecione</option>
-                <option>Chrome</option>
-                <option>Firefox</option>
-                <option>Internet Explorer</option>
-                <option>Opera</option>
-                <option>Safari</option>
-            </select>
-            </div>
-        <fieldset class="grupo">
-            <div class="check">
-            <label><strong>Selecione as tecnologias que você utiliza:</strong></label><br><br>
-                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="C#"/>
-                <label for="tecnologia1">C#</label>
-                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="HTML"/> 
-                <label for="tecnologia2">HTML</label>
-                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="CSS"/> 
-                <label for="tecnologia3">CSS</label>
-                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="JavaScript"/> 
-                <label for="tecnologia4">JavaScript</label>
-                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="PHP"/> 
-                <label for="tecnologia5">PHP</label>
-                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python"/> 
-                <label for="tecnologia6">Python</label>
-                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java"/> 
-                <label for="tecnologia7">Java</label>
-                <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Ruby"/> 
-                <label for="tecnologia8">Ruby</label>
-            </div>
-        </fieldset>
-        <div class="campo">
-            <br>
-            <label><strong>Comente um pouco sobre a sua experiência:</strong></label>
-            <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
-        </div>
-        <div class="tacbox">
-            <input id="checkbox" type="checkbox" />
-            <label for="checkbox"> Eu li e concordo com os <a href="#">Termos e Condições</a> de uso.</label>
-        </div>
-        <button class="botao" type="submit">Enviar</button>
-    </form>
+    <div>
+        <label for="vinculo">Vínculo do titular dos dados com o Videnci?*</label><br>
+            <ul>
+                <input type="checkbox" id="vinculo1" name="vinculo1" value="Proprietário de uma conta Videnci"/>
+                <label for="vinculo1">Proprietário de uma conta Videnci</label><br>
+                <input type="checkbox" id="vinculo2" name="vinculo2" value="Usuário terceirizado de uma conta Videnci"/>
+                <label for="vinculo2">Usuário terceirizado de uma conta Videnci</label><br>
+                <input type="checkbox" id="vinculo3" name="vinculo3" value="Cliente ativo Videnci"/>
+                <label for="vinculo3">Cliente ativo Videnci</label><br>
+                <input type="checkbox" id="vinculo4" name="vinculo4" value="Ex-cliente Videnci"/>
+                <label for="vinculo4">Ex-cliente Videnci</label><br>
+                <input type="checkbox" id="vinculo5" name="vinculo5" value="Participante de ação de Marketing, como newsletter, ações promocionais e/ou webinars."/>
+                <label for="vinculo5">Participante de ação de Marketing, como newsletter, ações promocionais e/ou webinars.</label><br>
+                <input type="checkbox" id="vinculo6" name="vinculo6" value="Visitante"/>
+                <label for="vinculo6">Visitante</label><br>
+            </ul>
+    </div>
+    <div class="campo">
+        <label for="name">Nome Completo*</label>
+        <input type="text" id="name">
+    </div>
+    <div class="campo">
+        <label for="cpf">CPF:*</label>
+        <input type="number" id="cpf">
+    </div>
+    <div class="campo">
+        <label for="empresa">Nome da empresa titular:*</label>
+        <input type="text" id="empresa">
+    </div>
+    <div class="campo">
+        <label for="email">E-mail para contato:*</label>
+        <input type="email" id="email">
+    </div>
+    <div class="campo">
+        <label for="telefone">Telefone de contato:*</label>
+        <input type="text" id="country">
+        <input type="tel" id="telefone">
+    </div>
+    <div>
+        <label for="contato">Prefiro ser contato por:*</label><br>
+            <ul>
+                <input type="checkbox" id="contato1" name="contato1" value="telefone"/>
+                <label for="contato1">Telefone</label><br>
+                <input type="checkbox" id="contato2" name="contato2" value="email"/>
+                <label for="contato2">E-mail</label><br>
+                <input type="checkbox" id="contato3" name="contato3" value="whatsapp"/>
+                <label for="contato3">Whatsapp</label><br>
+            </ul>
+    </div>
+    <div>
+        <label for="opcao">Qual das opções abaixo representam melhor o direito que você deseja exercer:*</label><br>
+            <ul>
+                <input type="checkbox" id="opcao1" name="opcao1" value="Confirmação da existência de tratamento de dados pessoais"/>
+                <label for="opcao1">Confirmação da existência de tratamento de dados pessoais</label><br>
+                <input type="checkbox" id="opcao2" name="opcao2" value="Acesso aos meus dados pessoais de forma gratuita"/>
+                <label for="opcao2">Acesso aos meus dados pessoais de forma gratuita</label><br>
+                <input type="checkbox" id="opcao3" name="opcao3" value="Correção dos dados pessoais e que eu seja notificado após os ajustes necessários"/>
+                <label for="opcao3">Correção dos dados pessoais e que eu seja notificado após os ajustes necessários</label><br>
+                <input type="checkbox" id="opcao4" name="opcao4" value="Portabilidade dos meus dados a outro fornecedor de serviço"/>
+                <label for="opcao4">Portabilidade dos meus dados a outro fornecedor de serviço</label><br>
+                <input type="checkbox" id="opcao5" name="opcao5" value="Exclusão dos dados (tratados via consentimento) e que eu seja notificado após ajustes necessários ou justificativa para a não exclusão conforme no Art. 16 da LGPD"/>
+                <label for="opcao5">Exclusão dos dados (tratados via consentimento) e que eu seja notificado após ajustes necessários ou justificativa para a não exclusão conforme no Art. 16 da LGPD</label><br>
+                <input type="checkbox" id="opcao6" name="opcao6" value="Revogação do consentimento fornecido à Unimed Blumenau para tratamento dos meus dados pessoais"/>
+                <label for="opcao6">Revogação do consentimento fornecido à Unimed Blumenau para tratamento dos meus dados pessoais</label><br>
+                <input type="checkbox" id="opcao7" name="opcao7" value="Remoção dos meus dados de campanhas de marketing e publicitárias"/>
+                <label for="opcao7">Remoção dos meus dados de campanhas de marketing e publicitárias</label><br>
+                <input type="checkbox" id="opcao8" name="opcao8" value="Possível vazamento dos meus dados pessoais"/>
+                <label for="opcao8">Possível vazamento dos meus dados pessoais</label><br>
+            </ul>
+    </div>
+    <button class="botao" type="submit">Enviar</button>
+
 </body>
 </html>

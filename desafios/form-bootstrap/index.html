@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div class="container my-5">
+    <form class="row g-3">
+      <h2>Formulário de cadastro</h2>
+            <div class="col-md-6">
+              <label for="nome" class="form-label">Nome:</label>
+              <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="col-md-6">
+              <label for="sobrenome" class="form-label">Sobrenome:</label>
+              <input type="text" class="form-control" id="inputLastName">
+            </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">E-mail:</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Senha:</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <label for="sel1" class="form-label">Gênero:</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Masculino
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+          <label class="form-check-label" for="flexRadioDefault2">
+            Feminino
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Outro
+          </label>
+        </div>
+        <label for="browser" class="form-label">Escolha seu navegador de preferência:</label>
+            <select  class="form-select m-2 w-50" id="browser" name="sellist1">
+              <option selected> Selecione</option>
+              <option value="1">Edge
+              <option value="2">Firefox
+              <option value="3">Chrome
+              <option value="4">Opera
+              <option value="5">Safari
+            </select>
+        <div class="mb-4 text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
