@@ -1,151 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Tabela em HTML</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tabela em HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        th, td {
+        padding: 10px;
+        }
+        .estado {
+            background-color: lightblue;
+        }
+        .sigla {
+            background-color: lightgreen;
+        }
+        .populacao {
+            background-color: rgb(248, 248, 105);
+        }
+    </style>
+</head>
     <body>
-        <table border="1">
+        <table>
             <tr>
-                <th style="background-color:blue;">Nome dos Estados</th>
-                <th style="background-color:green;">Sigla dos Estados</th>
-                <th style="background-color:yellow;">População</th>
+                <th class="estado">Nome dos Estados</th>
+                <th class="sigla">Sigla dos Estados</th>
+                <th class="populacao">População</th>
             </tr>
             <tr>
-                <td>Acre</td>
-                <td>AC</td>
-                <td>881.935</td>
+                <td class="estado">Acre</td>
+                <td class="sigla">AC</td>
+                <td class="populacao">881.935</td>
             </tr>
             <tr>
-                <td>Alagoas</td>
-                <td>AL</td>
-                <td>3.351.543</td>
+                <td class="estado">Alagoas</td>
+                <td class="sigla">AL</td>
+                <td class="populacao">3.351.543</td>
             </tr>
             <tr>
-                <td>Amapá</td>
-                <td>AP</td>
-                <td>845.731</td>
+                <td class="estado">Amapá</td>
+                <td class="sigla">AP</td>
+                <td class="populacao">845.731</td>
             </tr>
             <tr>
-                <td>Amazonas</td>
-                <td>AM</td>
-                <td>4.207.714</td>
+                <td class="estado">Amazonas</td>
+                <td class="sigla">AM</td>
+                <td class="populacao">4.207.714</td>
             </tr>
             <tr>
-                <td>Bahia</td>
-                <td>BA</td>
-                <td>14.930.634</td>
+                <td class="estado">Bahia</td>
+                <td class="sigla">BA</td>
+                <td class="populacao">14.930.634</td>
             </tr>
             <tr>
-                <td>Ceará</td>
-                <td>CE</td>
-                <td>9.187.103</td>
+                <td class="estado">Ceará</td>
+                <td class="sigla">CE</td>
+                <td class="populacao">9.187.103</td>
             </tr>
             <tr>
-                <td>Espírito Santo</td>
-                <td>ES</td>
-                <td>4.064.052</td>
+                <td class="estado">Espírito Santo</td>
+                <td class="sigla">ES</td>
+                <td class="populacao">4.064.052</td>
             </tr>
             <tr>
-                <td>Goiás</td>
-                <td>GO</td>
-                <td>7.113.540</td>
+                <td class="estado">Goiás</td>
+                <td class="sigla">GO</td>
+                <td class="populacao">7.113.540</td>
             </tr>
             <tr>
-                <td>Maranhão</td>
-                <td>MA</td>
-                <td>7.114.598</td>
+                <td class="estado">Maranhão</td>
+                <td class="sigla">MA</td>
+                <td class="populacao">7.114.598</td>
             </tr>
             <tr>
-                <td>Mato Grosso</td>
-                <td>MT</td>
-                <td>3.526.220</td>
+                <td class="estado">Mato Grosso</td>
+                <td class="sigla">MT</td>
+                <td class="populacao">3.526.220</td>
             </tr>
             <tr>
-                <td>Mato Grosso do Sul</td>
-                <td>MS</td>
-                <td>2.809.394</td>
+                <td class="estado">Mato Grosso do Sul</td>
+                <td class="sigla">MS</td>
+                <td class="populacao">2.809.394</td>
             </tr>
             <tr>
-                <td>Minas Gerais</td>
-                <td>MG</td>
-                <td>21.292.666</td>
+                <td class="estado">Minas Gerais</td>
+                <td class="sigla">MG</td>
+                <td class="populacao">21.292.666</td>
             </tr>
             <tr>
-                <td>Pará</td>
-                <td>PA</td>
-                <td>8.690.745</td>
+                <td class="estado">Pará</td>
+                <td class="sigla">PA</td>
+                <td class="populacao">8.690.745</td>
             </tr>
             <tr>
-                <td>Paraíba</td>
-                <td>PB</td>
-                <td>3.996.496</td>
+                <td class="estado">Paraíba</td>
+                <td class="sigla">PB</td>
+                <td class="populacao">3.996.496</td>
             </tr>
             <tr>
-                <td>Paraná</td>
-                <td>PR</td>
-                <td>11.516.840</td>
+                <td class="estado">Paraná</td>
+                <td class="sigla">PR</td>
+                <td class="populacao">11.516.840</td>
             </tr>
             <tr>
-                <td>Pernambuco</td>
-                <td>PE</td>
-                <td>9.616.621</td>
+                <td class="estado">Pernambuco</td>
+                <td class="sigla">PE</td>
+                <td class="populacao">9.616.621</td>
             </tr>
             <tr>
-                <td>Piauí</td>
-                <td>PI</td>
-                <td>3.281.480</td>
+                <td class="estado">Piauí</td>
+                <td class="sigla">PI</td>
+                <td class="populacao">3.281.480</td>
             </tr>
             <tr>
-                <td>Rio de Janeiro</td>
-                <td>RJ</td>
-                <td>17.366.189</td>
+                <td class="estado">Rio de Janeiro</td>
+                <td class="sigla">RJ</td>
+                <td class="populacao">17.366.189</td>
             </tr>
             <tr>
-                <td>Rio Grande do Norte</td>
-                <td>RN</td>
-                <td>3.534.165</td>
+                <td class="estado">Rio Grande do Norte</td>
+                <td class="sigla">RN</td>
+                <td class="populacao">3.534.165</td>
             </tr>
             <tr>
-                <td>Rio Grande do Sul</td>
-                <td>RS</td>
-                <td>11.422.973</td>
+                <td class="estado">Rio Grande do Sul</td>
+                <td class="sigla">RS</td>
+                <td class="populacao">11.422.973</td>
             </tr>
             <tr>
-                <td>Rondônia</td>
-                <td>RO</td>
-                <td>1.796.460</td>
+                <td class="estado">Rondônia</td>
+                <td class="sigla">RO</td>
+                <td class="populacao">1.796.460</td>
             </tr>
             <tr>
-                <td>Roraima</td>
-                <td>RR</td>
-                <td>631.181</td>
+                <td class="estado">Roraima</td>
+                <td class="sigla">RR</td>
+                <td class="populacao">631.181</td>
             </tr>
             <tr>
-                <td>Santa Catarina</td>
-                <td>SC</td>
-                <td>7.252.502</td>
+                <td class="estado">Santa Catarina</td>
+                <td class="sigla">SC</td>
+                <td class="populacao">7.252.502</td>
             </tr>
             <tr>
-                <td>São Paulo</td>
-                <td>SP</td>
-                <td>44.04.036</td>
+                <td class="estado">São Paulo</td>
+                <td class="sigla">SP</td>
+                <td class="populacao">44.04.036</td>
             </tr>
             <tr>
-                <td>Sergipe</td>
-                <td>SE</td>
-                <td>2.318.822</td>
+                <td class="estado">Sergipe</td>
+                <td class="sigla">SE</td>
+                <td class="populacao">2.318.822</td>
             </tr>
             <tr>
-                <td>Tocantins</td>
-                <td>TO</td>
-                <td>1.590.248</td>
+                <td class="estado">Tocantins</td>
+                <td class="sigla">TO</td>
+                <td class="populacao">1.590.248</td>
             </tr>
             <tr>
-                <td>Distrito Federal</td>
-                <td>DF</td>
-                <td>3.055.149</td>
+                <td class="estado">Distrito Federal</td>
+                <td class="sigla">DF</td>
+                <td class="populacao">3.055.149</td>
             </tr>
         </table>
     </body>
