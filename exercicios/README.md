@@ -11,3 +11,12 @@
 
 **EXERCÍCIO 004**
 -- [Teste Formulário](https://lele-sf.github.io/dev-web/exercicios/Ex004/)
+
+**EXERCÍCIO 005**
+-- [Formulário com CSS](https://lele-sf.github.io/dev-web/exercicios/formulario-com-css/)
+
+**EXERCÍCIO 006**
+-- [Formulário LGPD](https://lele-sf.github.io/dev-web/exercicios/formulario-lgpd/)
+
+**EXERCÍCIO 007**
+-- [Formulário](https://lele-sf.github.io/dev-web/exercicios/formulario/)
