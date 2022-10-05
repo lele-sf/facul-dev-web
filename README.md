@@ -1,2 +1,14 @@
-# dev-web
-Atividades da aula de desenvolvimento web em HTML, CSS e JavaScript 
+# Desenvolvimento Web
+## Sobre
+Repositório criado para organização das atividades da aula de desenvolvimento web da faculdade.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Exercícios e Desafios
+
+* Acesse [**aqui**](https://lele-sf.github.io/dev-web/exercicios/) para executar os exercícios
+* Acesse [**aqui**](https://lele-sf.github.io/dev-web/desafios/) para executar os desafios
