@@ -11,3 +11,6 @@
 
 **DESAFIO 004**
 -- [Desafio Formulário Bootstrap](https://lele-sf.github.io/dev-web/desafios/form-bootstrap/)
+
+**DESAFIO 005**
+-- [To Do List](https://lele-sf.github.io/dev-web/exercicios-js/ToDoList/)
