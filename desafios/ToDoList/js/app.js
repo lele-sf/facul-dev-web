@@ -108,8 +108,3 @@ clearButton.addEventListener('click', function(){
     localStorage.clear();
     getList(todoItems);
 })
-
-
-
-  
-
