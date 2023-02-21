@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Formulário</h1>
+      <h1>Formulário</h1>
     </header>
     <section>
-        <form name="form">
-            <h2>Entre em contato:</h2>
-            <p>Nome: <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required="required"></p>
-            <p>Telefone: <input type="tel" name="tel" id="tel" placeholder="(xx) xxxx-xxxx"></p>
-            <p>Email: <input type="email" name="email" id="email" placeholder="exemplo@gmail.com"></p>
-            <p>
-            <textarea name="obs" id="obs" cols="30" rows="6" placeholder="Deixe a sua opinião..."></textarea>
-            </p>
-            <input type="submit" value="Enviar" id="enviar" onclick="enviar()">
-        </form>
-        <div>
-            <p id="res"></p>
-        </div>
+      <form id="form">
+        <h2>Entre em contato:</h2>
+        <p>Nome: <input type="text" id="nome" placeholder="Digite o seu nome" required></p>
+        <p>Telefone: <input type="tel" id="tel" placeholder="(xx) xxxx-xxxx"></p>
+        <p>Email: <input type="email" id="email" placeholder="exemplo@gmail.com" required></p>
+        <p>
+        <textarea id="obs" cols="30" rows="6" placeholder="Deixe a sua opinião..."></textarea>
+        </p>
+        <input type="submit" value="Enviar" id="enviar">
+      </form>
     </section>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
+
 

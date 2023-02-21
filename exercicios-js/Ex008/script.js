@@ -1,12 +1,17 @@
+const form = document.getElementById('form');
 
-function enviar() {
-    let nome = document.getElementById("nome").value;
-    let text = ''
-    if (nome != '') {
-        text = `Obrigado ${nome} os seus dados foram enviados com sucesso!`;
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const nome = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const tel = document.getElementById('tel').value;
+    const mensagem = document.getElementById('obs').value;
+
+    if (nome && email && mensagem && tel) {
+        const mensagemSucesso = `Obrigado ${nome}, os seus dados foram enviados com sucesso!`;
+        alert(mensagemSucesso);
     } else {
-        text = 'Por favor preencha os dados!';
+        alert('Por favor preencha todos os campos.');
     }
-    document.getElementById("res").innerHTML = text;
-}
-// não consegui fazer funcionar ainda
+});
