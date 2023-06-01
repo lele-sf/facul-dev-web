@@ -10,6 +10,5 @@ Repositório criado para organização das atividades da aula de desenvolvimento
 
 ## Exercícios e Desafios
 
-* Acesse [**aqui**](https://lele-sf.github.io/dev-web/exercicios/) para executar os exercícios de HTML/CSS
 * Acesse [**aqui**](https://lele-sf.github.io/dev-web/exercicios-js/) para executar os exercícios de JavaScript
 * Acesse [**aqui**](https://lele-sf.github.io/dev-web/desafios/) para executar os desafios
