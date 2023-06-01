@@ -1,18 +1,20 @@
-let num = document.getElementById("num");
-let res = document.getElementById("res");
+// diferentes valores
+let num = prompt("Digite um número:");
+let res = "";
 
 function calcule() {
-    let n = Number(num.value)
-    let abs = Math.abs(n)
-    let int = Math.trunc(n)
-    let arrend = Math.round(n)
-    let raiz2 = Math.sqrt(n)
-    let raiz3 = Math.cbrt(n)
-    res.innerHTML = `<p>O valor absoluto de ${n} é <mark>${abs}</mark></p>
-    <p>O valor inteiro de ${n} é <mark>${int}</mark></p>
-    <p>O valor arredondado de ${n} é <mark>${arrend}</mark></p>
-    <p>A raiz quadrada de ${n} é <mark>${raiz2}</mark></p>
-    <p>A raiz cúbica de ${n} é <mark>${raiz3}</mark></p>`
-
+  let n = Number(num);
+  let abs = Math.abs(n);
+  let int = Math.trunc(n);
+  let arrend = Math.round(n);
+  let raiz2 = Math.sqrt(n);
+  let raiz3 = Math.cbrt(n);
+  res = `O valor absoluto de ${n} é ${abs}\n`;
+  res += `O valor inteiro de ${n} é ${int}\n`;
+  res += `O valor arredondado de ${n} é ${arrend}\n`;
+  res += `A raiz quadrada de ${n} é ${raiz2}\n`;
+  res += `A raiz cúbica de ${n} é ${raiz3}\n`;
+  console.log(res);
 }
 
+calcule();

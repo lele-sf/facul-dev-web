@@ -1,7 +1,11 @@
-let res = document.getElementById('res')
+// contagem de 1 a 10
 function contagem() {
+    let output = '';
     for (let i = 1; i <= 10; i++) {
-        res.innerHTML += `${i}&#128073 `
+      output += `${i}...`;
     }
-    res.innerHTML += `&#127937`
-}
+    output += `🥳`;
+    console.log(output);
+  }
+  
+  contagem();

@@ -1,12 +1,11 @@
+// par ou ímpar
 function calcule() {
-  var texto = ""
-  for (var i = 0; i < 2; i++) {
-    var num = Number(prompt("Digite um número:"))
-    if (num % 2 == 0) {
-      texto += `O número ${num} é par<br>`
-    } else {
-      texto += `O número ${num} é ímpar<br>`
-    }
+  var num = Number(prompt("Digite um número:"));
+  if (num % 2 === 0) {
+    console.log(`O número ${num} é par`);
+  } else {
+    console.log(`O número ${num} é ímpar`);
   }
-  document.getElementById("res").innerHTML = texto
 }
+
+calcule();
