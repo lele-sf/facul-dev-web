@@ -10,4 +10,4 @@ Repositório criado para organização das atividades da aula de desenvolvimento
 
 ## Exercícios e Desafios
 
-* Acesse [**aqui**](https://lele-sf.github.io/dev-web/desafios/) para executar os desafios
+* Acesse [**aqui**](https://lele-sf.github.io/facul-dev-web/desafios/) para executar os desafios
